@@ -13,8 +13,9 @@
         <number name="createdDate" type="Long">1723107977139</number>
         <value name="lastModifiedBy">flowqa</value>
         <value name="lastModifiedByUserId">16338fbd939349d6bad09c2bb788045a</value>
-        <number name="lastModifiedDate" type="Long">1723107977150</number>
+        <number name="lastModifiedDate" type="Long">1723107983385</number>
       </record>
+      <Boolean name="wMIODocTypeReplica">true</Boolean>
     </record>
     <value name="is_public">false</value>
     <value name="field_type">record</value>
@@ -22,12 +23,18 @@
     <value name="nillable">true</value>
     <value name="form_qualified">false</value>
     <value name="is_global">false</value>
-    <value name="schemaDomain">0cd49fee37c0401a82759430217a8d59</value>
+    <value name="schemaDomain">b76307d7789b425f91f445878fbc2c45</value>
     <value name="originURI">Order.xsd</value>
     <array name="rec_fields" type="record" depth="1">
       <record javaclass="com.wm.util.Values">
         <value name="node_type">record</value>
         <value name="node_subtype">unknown</value>
+        <value name="node_nsName">fld_1533393312_stage00.projects.fl51f15f7ca04a62d5d81950.documenttypes:docTypeRef_tns_PurchaseOrderType</value>
+        <record name="node_hints" javaclass="com.wm.util.Values">
+          <value name="field_largerEditor">false</value>
+          <value name="field_password">false</value>
+          <value name="field_usereditable">true</value>
+        </record>
         <value name="is_public">false</value>
         <value name="field_name">tns:PurchaseOrder</value>
         <value name="field_type">recref</value>
@@ -38,7 +45,7 @@
         <value name="is_global">false</value>
         <value name="rec_closed">true</value>
         <value name="modifiable">true</value>
-        <value name="rec_ref">project.newgitprojecttest.documenttypes:docTypeRef_tns_PurchaseOrderType</value>
+        <value name="rec_ref">fld_1533393312_stage00.projects.fl51f15f7ca04a62d5d81950.documenttypes:docTypeRef_tns_PurchaseOrderType</value>
       </record>
     </array>
     <value name="modifiable">false</value>
